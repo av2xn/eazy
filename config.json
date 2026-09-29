@@ -1,0 +1,32 @@
+{
+  "base_url": "https://www.ornek.com",
+  "login_page": "/tr/giris.jsp",
+  "login_endpoints": ["/login", "/tr/login"],
+  "captcha_url": "/captcha.jpg?captchaId={captcha_id}",
+  "cookie_name": "gaUserId",
+  "cookie_length": 32,
+  "form_fields": {
+    "captcha_id":       "captchaId",
+    "captcha_response": "captchaResponse",
+    "ga_code":          "gaCode",
+    "op":               "l_op",
+    "user":             "l_un",
+    "pass":             "l_pw",
+    "remember":         "l_kmli",
+    "redirect":         "l_ru"
+  },
+  "form_values": {
+    "op":       "tibeslogin",
+    "remember": "false",
+    "redirect": ""
+  },
+  "xml_tags": {
+    "message":  "message",
+    "key":      "key",
+    "csid":     "csidValue",
+    "sid":      "sidValue",
+    "redirect": "redirectURL"
+  },
+  "success_code": "100",
+  "captcha_length": { "min": 4, "max": 5 }
+}
