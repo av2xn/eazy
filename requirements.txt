@@ -1,0 +1,9 @@
+# HTTP istemcisi
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Captcha OCR motoru
+ddddocr>=1.5.6
+
+# Görüntü ön işleme (opsiyonel, _preprocess için)
+Pillow>=10.0.0
